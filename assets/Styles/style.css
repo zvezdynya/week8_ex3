@@ -1,0 +1,208 @@
+@font-face {
+	font-family: "Intro-Black";
+	src: url("../fonts/intro-black/intro-black.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/intro-black/intro-black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/intro-black/intro-black.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/intro-black/intro-black.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/intro-black/intro-black.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/intro-black/intro-black.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/intro-black/intro-black.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+.button {
+    font-family: 'Roboto Slab', serif;
+}
+
+.button__purple {
+    font-family: "Intro-Black";
+    background-color: #5222D0;
+    border: #5222D0;
+    color: #fff;
+}
+
+.text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.tittle {
+    font-family: "Intro-Black";
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.subtittle {
+    font-family: "Intro-Black";
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.main__tittle {
+    padding-left: 0;
+}
+
+.main__button {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 270px;
+}
+
+.main__button_icon {
+    padding-right: 0;
+}
+
+.header-form {
+    width: 10%;
+}
+
+.header-form__button {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    width: 113px;
+    padding: 0.5rem 1.5rem;
+}
+
+.header-form__button_icon {
+    padding-left: 3%;
+}
+
+.nav-link {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.header__nav-link {
+    color: #5222D0;
+}
+
+.opportunities__border-active {
+    border: 1px solid #EC615B;
+}
+
+.opportunities__border-offset {
+    margin-right: 6%;
+    margin-left: -5%;
+    padding-left: 5%;
+}
+
+.opportunitie__nav-link {
+    color: #000;
+}
+
+.main__img {
+    background-image: url(/assets/img/pic.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex: 1 0 auto;
+    height: 620px;
+    margin-left: -2%;
+    z-index: 2;
+}
+
+.card-bloc__row {
+margin-left: 5%;
+}
+
+.card-block__tittle {
+    margin-left: 5%;
+}
+
+.subscribe-form {
+    height: 70%;
+    background-color: #EC615B;
+}
+
+.subscribe-form__tittle_white {
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .main__tittle {
+        font-size: calc(1.5rem + 2vw);
+    }
+    .main__text {
+        font-size: calc(0.5rem + 0.8vw);
+    }
+    .main__img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex: 1 0 auto;
+    }
+    .header__nav-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .main__button {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main__tittle {
+        font-size: calc(1rem + 1.5vw);
+        line-height: 40px;
+    }
+    .main__text {
+        font-size: calc(0.3rem + 0.8vw);
+        line-height: 16px;
+    }
+    .main__img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex: 1 0 auto;
+    }
+    .header__nav-link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .main__button {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 200px;
+    }
+
+    .main__button_icon {
+        width: 35%;
+        padding-right: 1%;
+    }
+    
+.header-form__button_icon {
+    width: 30%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .main__tittle {
+        font-size: calc(1rem + 1.5vw);
+        line-height: 30px;
+    }
+
+    .main__button {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 180px;
+    }
+
+    .main__button_icon {
+        width: 30%;
+        padding-right: 1%;
+    }
+}
